@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D706CAA31C4D45A5004D3571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D706CAA21C4D45A5004D3571 /* AppDelegate.swift */; };
+		D706CAA51C4D45A5004D3571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D706CAA41C4D45A5004D3571 /* ViewController.swift */; };
+		D706CAA81C4D45A5004D3571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D706CAA61C4D45A5004D3571 /* Main.storyboard */; };
+		D706CAAA1C4D45A5004D3571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D706CAA91C4D45A5004D3571 /* Assets.xcassets */; };
+		D706CAAD1C4D45A5004D3571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D706CAAB1C4D45A5004D3571 /* LaunchScreen.storyboard */; };
+		D706CAB81C4D45A5004D3571 /* KiliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D706CAB71C4D45A5004D3571 /* KiliTests.swift */; };
+		D706CAC31C4D45A5004D3571 /* KiliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D706CAC21C4D45A5004D3571 /* KiliUITests.swift */; };
+		D706CAD11C4D4645004D3571 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D706CAD01C4D4645004D3571 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D706CAB41C4D45A5004D3571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D706CA971C4D45A5004D3571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D706CA9E1C4D45A5004D3571;
+			remoteInfo = Kili;
+		};
+		D706CABF1C4D45A5004D3571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D706CA971C4D45A5004D3571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D706CA9E1C4D45A5004D3571;
+			remoteInfo = Kili;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D706CA9F1C4D45A5004D3571 /* Kili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kili.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D706CAA21C4D45A5004D3571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D706CAA41C4D45A5004D3571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D706CAA71C4D45A5004D3571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D706CAA91C4D45A5004D3571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D706CAAC1C4D45A5004D3571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D706CAAE1C4D45A5004D3571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D706CAB31C4D45A5004D3571 /* KiliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D706CAB71C4D45A5004D3571 /* KiliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiliTests.swift; sourceTree = "<group>"; };
+		D706CAB91C4D45A5004D3571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D706CABE1C4D45A5004D3571 /* KiliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D706CAC21C4D45A5004D3571 /* KiliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiliUITests.swift; sourceTree = "<group>"; };
+		D706CAC41C4D45A5004D3571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D706CAD01C4D4645004D3571 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D706CA9C1C4D45A5004D3571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D706CAD11C4D4645004D3571 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D706CAB01C4D45A5004D3571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D706CABB1C4D45A5004D3571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D706CA961C4D45A5004D3571 = {
+			isa = PBXGroup;
+			children = (
+				D706CAD01C4D4645004D3571 /* AVFoundation.framework */,
+				D706CAA11C4D45A5004D3571 /* Kili */,
+				D706CAB61C4D45A5004D3571 /* KiliTests */,
+				D706CAC11C4D45A5004D3571 /* KiliUITests */,
+				D706CAA01C4D45A5004D3571 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D706CAA01C4D45A5004D3571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D706CA9F1C4D45A5004D3571 /* Kili.app */,
+				D706CAB31C4D45A5004D3571 /* KiliTests.xctest */,
+				D706CABE1C4D45A5004D3571 /* KiliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D706CAA11C4D45A5004D3571 /* Kili */ = {
+			isa = PBXGroup;
+			children = (
+				D706CAA21C4D45A5004D3571 /* AppDelegate.swift */,
+				D706CAA41C4D45A5004D3571 /* ViewController.swift */,
+				D706CAA61C4D45A5004D3571 /* Main.storyboard */,
+				D706CAA91C4D45A5004D3571 /* Assets.xcassets */,
+				D706CAAB1C4D45A5004D3571 /* LaunchScreen.storyboard */,
+				D706CAAE1C4D45A5004D3571 /* Info.plist */,
+			);
+			path = Kili;
+			sourceTree = "<group>";
+		};
+		D706CAB61C4D45A5004D3571 /* KiliTests */ = {
+			isa = PBXGroup;
+			children = (
+				D706CAB71C4D45A5004D3571 /* KiliTests.swift */,
+				D706CAB91C4D45A5004D3571 /* Info.plist */,
+			);
+			path = KiliTests;
+			sourceTree = "<group>";
+		};
+		D706CAC11C4D45A5004D3571 /* KiliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D706CAC21C4D45A5004D3571 /* KiliUITests.swift */,
+				D706CAC41C4D45A5004D3571 /* Info.plist */,
+			);
+			path = KiliUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D706CA9E1C4D45A5004D3571 /* Kili */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D706CAC71C4D45A5004D3571 /* Build configuration list for PBXNativeTarget "Kili" */;
+			buildPhases = (
+				D706CA9B1C4D45A5004D3571 /* Sources */,
+				D706CA9C1C4D45A5004D3571 /* Frameworks */,
+				D706CA9D1C4D45A5004D3571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kili;
+			productName = Kili;
+			productReference = D706CA9F1C4D45A5004D3571 /* Kili.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D706CAB21C4D45A5004D3571 /* KiliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D706CACA1C4D45A5004D3571 /* Build configuration list for PBXNativeTarget "KiliTests" */;
+			buildPhases = (
+				D706CAAF1C4D45A5004D3571 /* Sources */,
+				D706CAB01C4D45A5004D3571 /* Frameworks */,
+				D706CAB11C4D45A5004D3571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D706CAB51C4D45A5004D3571 /* PBXTargetDependency */,
+			);
+			name = KiliTests;
+			productName = KiliTests;
+			productReference = D706CAB31C4D45A5004D3571 /* KiliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D706CABD1C4D45A5004D3571 /* KiliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D706CACD1C4D45A5004D3571 /* Build configuration list for PBXNativeTarget "KiliUITests" */;
+			buildPhases = (
+				D706CABA1C4D45A5004D3571 /* Sources */,
+				D706CABB1C4D45A5004D3571 /* Frameworks */,
+				D706CABC1C4D45A5004D3571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D706CAC01C4D45A5004D3571 /* PBXTargetDependency */,
+			);
+			name = KiliUITests;
+			productName = KiliUITests;
+			productReference = D706CABE1C4D45A5004D3571 /* KiliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D706CA971C4D45A5004D3571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Anennya Veeraraghavan";
+				TargetAttributes = {
+					D706CA9E1C4D45A5004D3571 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D706CAB21C4D45A5004D3571 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D706CA9E1C4D45A5004D3571;
+					};
+					D706CABD1C4D45A5004D3571 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D706CA9E1C4D45A5004D3571;
+					};
+				};
+			};
+			buildConfigurationList = D706CA9A1C4D45A5004D3571 /* Build configuration list for PBXProject "Kili" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D706CA961C4D45A5004D3571;
+			productRefGroup = D706CAA01C4D45A5004D3571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D706CA9E1C4D45A5004D3571 /* Kili */,
+				D706CAB21C4D45A5004D3571 /* KiliTests */,
+				D706CABD1C4D45A5004D3571 /* KiliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D706CA9D1C4D45A5004D3571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D706CAAD1C4D45A5004D3571 /* LaunchScreen.storyboard in Resources */,
+				D706CAAA1C4D45A5004D3571 /* Assets.xcassets in Resources */,
+				D706CAA81C4D45A5004D3571 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D706CAB11C4D45A5004D3571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D706CABC1C4D45A5004D3571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D706CA9B1C4D45A5004D3571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D706CAA51C4D45A5004D3571 /* ViewController.swift in Sources */,
+				D706CAA31C4D45A5004D3571 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D706CAAF1C4D45A5004D3571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D706CAB81C4D45A5004D3571 /* KiliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D706CABA1C4D45A5004D3571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D706CAC31C4D45A5004D3571 /* KiliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D706CAB51C4D45A5004D3571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D706CA9E1C4D45A5004D3571 /* Kili */;
+			targetProxy = D706CAB41C4D45A5004D3571 /* PBXContainerItemProxy */;
+		};
+		D706CAC01C4D45A5004D3571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D706CA9E1C4D45A5004D3571 /* Kili */;
+			targetProxy = D706CABF1C4D45A5004D3571 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D706CAA61C4D45A5004D3571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D706CAA71C4D45A5004D3571 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D706CAAB1C4D45A5004D3571 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D706CAAC1C4D45A5004D3571 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D706CAC51C4D45A5004D3571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D706CAC61C4D45A5004D3571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D706CAC81C4D45A5004D3571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kili/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiliTalks.Kili;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D706CAC91C4D45A5004D3571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kili/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiliTalks.Kili;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D706CACB1C4D45A5004D3571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KiliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiliTalks.KiliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kili.app/Kili";
+			};
+			name = Debug;
+		};
+		D706CACC1C4D45A5004D3571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KiliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiliTalks.KiliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kili.app/Kili";
+			};
+			name = Release;
+		};
+		D706CACE1C4D45A5004D3571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KiliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiliTalks.KiliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kili;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D706CACF1C4D45A5004D3571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KiliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KiliTalks.KiliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kili;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D706CA9A1C4D45A5004D3571 /* Build configuration list for PBXProject "Kili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D706CAC51C4D45A5004D3571 /* Debug */,
+				D706CAC61C4D45A5004D3571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D706CAC71C4D45A5004D3571 /* Build configuration list for PBXNativeTarget "Kili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D706CAC81C4D45A5004D3571 /* Debug */,
+				D706CAC91C4D45A5004D3571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D706CACA1C4D45A5004D3571 /* Build configuration list for PBXNativeTarget "KiliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D706CACB1C4D45A5004D3571 /* Debug */,
+				D706CACC1C4D45A5004D3571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D706CACD1C4D45A5004D3571 /* Build configuration list for PBXNativeTarget "KiliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D706CACE1C4D45A5004D3571 /* Debug */,
+				D706CACF1C4D45A5004D3571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D706CA971C4D45A5004D3571 /* Project object */;
+}
