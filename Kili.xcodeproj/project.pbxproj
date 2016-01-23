@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		D706CAA31C4D45A5004D3571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D706CAA21C4D45A5004D3571 /* AppDelegate.swift */; };
-		D706CAA51C4D45A5004D3571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D706CAA41C4D45A5004D3571 /* ViewController.swift */; };
+		D706CAA51C4D45A5004D3571 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D706CAA41C4D45A5004D3571 /* AuthViewController.swift */; };
 		D706CAA81C4D45A5004D3571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D706CAA61C4D45A5004D3571 /* Main.storyboard */; };
 		D706CAAA1C4D45A5004D3571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D706CAA91C4D45A5004D3571 /* Assets.xcassets */; };
 		D706CAAD1C4D45A5004D3571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D706CAAB1C4D45A5004D3571 /* LaunchScreen.storyboard */; };
 		D706CAB81C4D45A5004D3571 /* KiliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D706CAB71C4D45A5004D3571 /* KiliTests.swift */; };
 		D706CAC31C4D45A5004D3571 /* KiliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D706CAC21C4D45A5004D3571 /* KiliUITests.swift */; };
 		D706CAD11C4D4645004D3571 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D706CAD01C4D4645004D3571 /* AVFoundation.framework */; };
+		D706CAD71C4E820F004D3571 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D706CAD31C4E820F004D3571 /* Fabric.framework */; };
+		D706CAD81C4E820F004D3571 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D706CAD41C4E820F004D3571 /* TwitterKit.framework */; };
+		D706CAD91C4E820F004D3571 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D706CAD51C4E820F004D3571 /* TwitterKitResources.bundle */; };
+		D706CADA1C4E820F004D3571 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D706CAD61C4E820F004D3571 /* TwitterCore.framework */; };
+		D78BFB681C53E96500201BF4 /* TextToSpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78BFB671C53E96500201BF4 /* TextToSpeechViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,7 @@
 /* Begin PBXFileReference section */
 		D706CA9F1C4D45A5004D3571 /* Kili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kili.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D706CAA21C4D45A5004D3571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D706CAA41C4D45A5004D3571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D706CAA41C4D45A5004D3571 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		D706CAA71C4D45A5004D3571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D706CAA91C4D45A5004D3571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D706CAAC1C4D45A5004D3571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		D706CAC21C4D45A5004D3571 /* KiliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiliUITests.swift; sourceTree = "<group>"; };
 		D706CAC41C4D45A5004D3571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D706CAD01C4D4645004D3571 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D706CAD31C4E820F004D3571 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		D706CAD41C4E820F004D3571 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		D706CAD51C4E820F004D3571 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		D706CAD61C4E820F004D3571 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		D78BFB671C53E96500201BF4 /* TextToSpeechViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextToSpeechViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D706CAD11C4D4645004D3571 /* AVFoundation.framework in Frameworks */,
+				D706CADA1C4E820F004D3571 /* TwitterCore.framework in Frameworks */,
+				D706CAD71C4E820F004D3571 /* Fabric.framework in Frameworks */,
+				D706CAD81C4E820F004D3571 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +93,10 @@
 		D706CA961C4D45A5004D3571 = {
 			isa = PBXGroup;
 			children = (
+				D706CAD31C4E820F004D3571 /* Fabric.framework */,
+				D706CAD41C4E820F004D3571 /* TwitterKit.framework */,
+				D706CAD51C4E820F004D3571 /* TwitterKitResources.bundle */,
+				D706CAD61C4E820F004D3571 /* TwitterCore.framework */,
 				D706CAD01C4D4645004D3571 /* AVFoundation.framework */,
 				D706CAA11C4D45A5004D3571 /* Kili */,
 				D706CAB61C4D45A5004D3571 /* KiliTests */,
@@ -102,8 +119,9 @@
 			isa = PBXGroup;
 			children = (
 				D706CAA21C4D45A5004D3571 /* AppDelegate.swift */,
-				D706CAA41C4D45A5004D3571 /* ViewController.swift */,
+				D706CAA41C4D45A5004D3571 /* AuthViewController.swift */,
 				D706CAA61C4D45A5004D3571 /* Main.storyboard */,
+				D78BFB671C53E96500201BF4 /* TextToSpeechViewController.swift */,
 				D706CAA91C4D45A5004D3571 /* Assets.xcassets */,
 				D706CAAB1C4D45A5004D3571 /* LaunchScreen.storyboard */,
 				D706CAAE1C4D45A5004D3571 /* Info.plist */,
@@ -139,6 +157,7 @@
 				D706CA9B1C4D45A5004D3571 /* Sources */,
 				D706CA9C1C4D45A5004D3571 /* Frameworks */,
 				D706CA9D1C4D45A5004D3571 /* Resources */,
+				D706CAD21C4E80F5004D3571 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -233,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D706CAD91C4E820F004D3571 /* TwitterKitResources.bundle in Resources */,
 				D706CAAD1C4D45A5004D3571 /* LaunchScreen.storyboard in Resources */,
 				D706CAAA1C4D45A5004D3571 /* Assets.xcassets in Resources */,
 				D706CAA81C4D45A5004D3571 /* Main.storyboard in Resources */,
@@ -255,12 +275,29 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D706CAD21C4E80F5004D3571 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 0f4dfba0b04e03e0bfda175ee5b50a5e81a08e85 95e5de77c27ebb932250614c3c34d33862580e0ed1a691d09bd43b06816e3449";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D706CA9B1C4D45A5004D3571 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D706CAA51C4D45A5004D3571 /* ViewController.swift in Sources */,
+				D78BFB681C53E96500201BF4 /* TextToSpeechViewController.swift in Sources */,
+				D706CAA51C4D45A5004D3571 /* AuthViewController.swift in Sources */,
 				D706CAA31C4D45A5004D3571 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +438,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Kili/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KiliTalks.Kili;
@@ -412,6 +454,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Kili/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KiliTalks.Kili;
@@ -486,6 +532,7 @@
 				D706CAC91C4D45A5004D3571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D706CACA1C4D45A5004D3571 /* Build configuration list for PBXNativeTarget "KiliTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +541,7 @@
 				D706CACC1C4D45A5004D3571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D706CACD1C4D45A5004D3571 /* Build configuration list for PBXNativeTarget "KiliUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +550,7 @@
 				D706CACF1C4D45A5004D3571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
